@@ -1,0 +1,13 @@
+[2024-04-09 17:41:32] [LOG] Restoring site...
+[2024-04-09 17:43:22] [LOG] Site restored...
+[2024-04-09 17:43:22] [LOG] Process (migration) finished successfully via ajax.php
+[2024-04-09 17:43:34] [ERROR] Front End Ajax Error START
+[2024-04-09 17:43:34] [ERROR] call = scan-directory
+[2024-04-09 17:43:34] [ERROR] 1_x = scan-directory
+[2024-04-09 17:43:34] [ERROR] 2_folder = themes
+[2024-04-09 17:43:34] [ERROR] 2_action = backup_migration
+[2024-04-09 17:43:34] [ERROR] 2_token = bmi
+[2024-04-09 17:43:34] [ERROR] 2_nonce = 1e386c90ad
+[2024-04-09 17:43:34] [ERROR] 2_f = scan-directory
+[2024-04-09 17:43:34] [ERROR] Front End Ajax Error END
+[2024-04-09 18:26:52] [LOG] Wtyczka została dezaktywowana

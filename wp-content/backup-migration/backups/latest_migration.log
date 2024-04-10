@@ -1,0 +1,325 @@
+[STEP] [2024-04-09 17:41:28] Rozpoczynanie przywracania
+[WARN] [2024-04-09 17:41:29] PHP CLI jest wyłączane ręcznie, wtyczka pominie wszystkie kroki PHP CLI.
+[SUCCESS] [2024-04-09 17:41:29] Proces przywracania odpowiedział
+[SUCCESS] [2024-04-09 17:41:29] Blokowanie procesu migracji
+[STEP] [2024-04-09 17:41:29] Rozpoczynanie przywracania
+[INFO] [2024-04-09 17:41:29] Wersja Backup & Migration: 1.4.5
+[INFO] [2024-04-09 17:41:29] Inicjowanie niestandardowego modułu obsługi błędów
+[INFO] [2024-04-09 17:41:29] Witryna, która zostanie przywrócona: http://pipipipipipi.loc
+[INFO] [2024-04-09 17:41:29] Wersja PHP: 8.1.10
+[INFO] [2024-04-09 17:41:29] Wersja WP: 6.5
+[INFO] [2024-04-09 17:41:29] Wersja MySQL: 8.0.30
+[INFO] [2024-04-09 17:41:29] Maksymalna długość MySQL: 536870912
+[INFO] [2024-04-09 17:41:29] Serwer WWW: Apache/2.4.54 (Win64) OpenSSL/1.1.1q PHP/8.1.10
+[INFO] [2024-04-09 17:41:29] Maksymalny czas wykonania (w sekundach): 36000
+[INFO] [2024-04-09 17:41:29] Limit pamięci (serwer): 512M
+[INFO] [2024-04-09 17:41:29] Limit pamięci (wp-config): 40M
+[INFO] [2024-04-09 17:41:29] Limit pamięci (wp-config admin): 512M
+[SUCCESS] [2024-04-09 17:41:29] Proces przywracania zainicjalizowany pomyślnie.
+[STEP] [2024-04-09 17:41:29] Sprawdzanie wolnego miejsca…
+[INFO] [2024-04-09 17:41:29] Sprawdzanie, czy jest wystarczająco dużo wolnego miejsca
+[INFO] [2024-04-09 17:41:29] Wymaga co najmniej 189941430 bajtów. [181.14 MB]
+[INFO] [2024-04-09 17:41:29] Funkcja służąca do sprawdzania wolnego miejsca na dysku jest wyłączona po stronie hostingu.
+[INFO] [2024-04-09 17:41:29] Używanie fikcyjnego pliku do sprawdzenia wolnego miejsca (może to chwilę zająć).
+[SUCCESS] [2024-04-09 17:41:32] Confirmed, there is enough space on the device, checked: 189941430 bytes.
+[STEP] [2024-04-09 17:41:32] Tworzenie nowego tajnego klucza dla bieżącego procesu przywracania.
+[SUCCESS] [2024-04-09 17:41:32] Wygenerowano tajny klucz, który zostanie ci zwrócony (ping).
+[INFO] [2024-04-09 17:41:32] Pomyślnie wykryto tajny klucz!
+[INFO] [2024-04-09 17:41:32] Tworzenie katalogu tymczasowego
+[STEP] [2024-04-09 17:41:32] Skanowanie archiwum…
+[INFO] [2024-04-09 17:41:32] Skanowanie wykryło 5447 plików wewnątrz kopii zapasowej.
+[STEP] [2024-04-09 17:41:33] Przygotowanie do ekstrakcji...
+[INFO] [2024-04-09 17:41:33] Pliki wyeksportowane na partię: 200
+[INFO] [2024-04-09 17:41:33] Używam ZipArchive, pomijając obliczenia limitu pamięci...
+[INFO] [2024-04-09 17:41:33] Postęp ekstrakcji: 200/5448 (3.69%)
+[INFO] [2024-04-09 17:41:33] Postęp ekstrakcji: 400/5448 (7.36%)
+[INFO] [2024-04-09 17:41:34] Postęp ekstrakcji: 600/5448 (11.03%)
+[INFO] [2024-04-09 17:41:34] Postęp ekstrakcji: 800/5448 (14.70%)
+[INFO] [2024-04-09 17:41:35] Postęp ekstrakcji: 1000/5448 (18.37%)
+[INFO] [2024-04-09 17:41:35] Postęp ekstrakcji: 1200/5448 (22.04%)
+[INFO] [2024-04-09 17:41:36] Postęp ekstrakcji: 1400/5448 (25.72%)
+[INFO] [2024-04-09 17:41:36] Postęp ekstrakcji: 1600/5448 (29.39%)
+[INFO] [2024-04-09 17:41:37] Postęp ekstrakcji: 1800/5448 (33.06%)
+[INFO] [2024-04-09 17:41:37] Postęp ekstrakcji: 2000/5448 (36.73%)
+[INFO] [2024-04-09 17:41:38] Postęp ekstrakcji: 2200/5448 (40.40%)
+[INFO] [2024-04-09 17:41:38] Postęp ekstrakcji: 2400/5448 (44.07%)
+[INFO] [2024-04-09 17:41:39] Postęp ekstrakcji: 2600/5448 (47.74%)
+[INFO] [2024-04-09 17:41:39] Postęp ekstrakcji: 2800/5448 (51.41%)
+[INFO] [2024-04-09 17:41:40] Postęp ekstrakcji: 3000/5448 (55.08%)
+[INFO] [2024-04-09 17:41:41] Postęp ekstrakcji: 3200/5448 (58.76%)
+[INFO] [2024-04-09 17:41:41] Postęp ekstrakcji: 3400/5448 (62.43%)
+[INFO] [2024-04-09 17:41:42] Postęp ekstrakcji: 3600/5448 (66.10%)
+[INFO] [2024-04-09 17:41:42] Postęp ekstrakcji: 3800/5448 (69.77%)
+[INFO] [2024-04-09 17:41:43] Postęp ekstrakcji: 4000/5448 (73.44%)
+[INFO] [2024-04-09 17:41:43] Postęp ekstrakcji: 4200/5448 (77.11%)
+[INFO] [2024-04-09 17:41:44] Postęp ekstrakcji: 4400/5448 (80.78%)
+[INFO] [2024-04-09 17:41:44] Postęp ekstrakcji: 4600/5448 (84.45%)
+[INFO] [2024-04-09 17:41:45] Postęp ekstrakcji: 4800/5448 (88.12%)
+[INFO] [2024-04-09 17:41:46] Postęp ekstrakcji: 5000/5448 (91.80%)
+[INFO] [2024-04-09 17:41:46] Postęp ekstrakcji: 5200/5448 (95.47%)
+[INFO] [2024-04-09 17:41:47] Postęp ekstrakcji: 5400/5448 (99.14%)
+[INFO] [2024-04-09 17:41:47] Postęp ekstrakcji: 5448/5448 (100.00%)
+[SUCCESS] [2024-04-09 17:41:47] Rozpakowano pliki…
+[STEP] [2024-04-09 17:41:48] Zapisywanie pliku wp-config…
+[SUCCESS] [2024-04-09 17:41:48] Plik wp-config został zapisany
+[STEP] [2024-04-09 17:41:48] Pobieranie manifestu kopii zapasowej…
+[SUCCESS] [2024-04-09 17:41:48] Załadowano plik manifestu
+[INFO] [2024-04-09 17:41:48] Wersja Backup Migration używana do tej kopii zapasowej: 1.4.5
+[STEP] [2024-04-09 17:41:48] Przywracanie plików (ten proces może chwilę potrwać)...
+[INFO] [2024-04-09 17:41:50] Wykluczanie pliku, który nie może być odczytany: 500/5418 (9%)
+[INFO] [2024-04-09 17:41:51] Wykluczanie pliku, który nie może być odczytany: 1000/5418 (18%)
+[INFO] [2024-04-09 17:41:52] Wykluczanie pliku, który nie może być odczytany: 1500/5418 (27%)
+[INFO] [2024-04-09 17:41:53] Wykluczanie pliku, który nie może być odczytany: 2000/5418 (36%)
+[INFO] [2024-04-09 17:41:54] Wykluczanie pliku, który nie może być odczytany: 2500/5418 (46%)
+[INFO] [2024-04-09 17:41:55] Wykluczanie pliku, który nie może być odczytany: 3000/5418 (55%)
+[INFO] [2024-04-09 17:41:56] Wykluczanie pliku, który nie może być odczytany: 3500/5418 (64%)
+[INFO] [2024-04-09 17:41:57] Wykluczanie pliku, który nie może być odczytany: 4000/5418 (73%)
+[INFO] [2024-04-09 17:41:58] Wykluczanie pliku, który nie może być odczytany: 4500/5418 (83%)
+[INFO] [2024-04-09 17:41:59] Wykluczanie pliku, który nie może być odczytany: 5000/5418 (92%)
+[INFO] [2024-04-09 17:42:00] Wykluczanie pliku, który nie może być odczytany: 5418/5418 (100%)
+[SUCCESS] [2024-04-09 17:42:00] Wszystkie pliki zostały pomyślnie przywrócone.
+[STEP] [2024-04-09 17:42:00] Walidacja prefiksu tabeli...
+[INFO] [2024-04-09 17:42:00] Prefiks tabeli w manifeście: wp_
+[INFO] [2024-04-09 17:42:00] Wykryty prefiks tabeli: wp_
+[INFO] [2024-04-09 17:42:00] Proces dzielenia jest wyłączony, ponieważ włączony jest silnik przywracania v3.
+[STEP] [2024-04-09 17:42:00] Sprawdzanie struktury bazy danych…
+[INFO] [2024-04-09 17:42:00] Pomyślnie wykryto kopię zapasową utworzoną za pomocą silnika v3, trwa importowanie...
+[STEP] [2024-04-09 17:42:00] Przywracanie bazy danych (używając silnika v4)...
+[STEP] [2024-04-09 17:42:00] Rozpoczęto przywracanie wp_commentmeta 1/26 (3.85%) tabeli
+[INFO] [2024-04-09 17:42:00] Postęp wp_commentmeta: 1/2 (50.00%)
+[INFO] [2024-04-09 17:42:01] Postęp wp_commentmeta: 2/2 (100.00%)
+[SUCCESS] [2024-04-09 17:42:01] Przywracanie tabeli wp_commentmeta zajęło 1.27857 sekund
+[STEP] [2024-04-09 17:42:01] Rozpoczęto przywracanie wp_comments 2/26 (7.69%) tabeli
+[INFO] [2024-04-09 17:42:01] Postęp wp_comments: 1/3 (33.33%)
+[INFO] [2024-04-09 17:42:01] Postęp wp_comments: 2/3 (66.67%)
+[INFO] [2024-04-09 17:42:02] Postęp wp_comments: 3/3 (100.00%)
+[SUCCESS] [2024-04-09 17:42:02] Przywracanie tabeli wp_comments zajęło 1.23461 sekund
+[STEP] [2024-04-09 17:42:02] Rozpoczęto przywracanie wp_itsec_bans 3/26 (11.54%) tabeli
+[INFO] [2024-04-09 17:42:02] Postęp wp_itsec_bans: 1/2 (50.00%)
+[INFO] [2024-04-09 17:42:02] Postęp wp_itsec_bans: 2/2 (100.00%)
+[SUCCESS] [2024-04-09 17:42:02] Przywracanie tabeli wp_itsec_bans zajęło 0.88625 sekund
+[STEP] [2024-04-09 17:42:03] Rozpoczęto przywracanie wp_itsec_dashboard_events 4/26 (15.38%) tabeli
+[INFO] [2024-04-09 17:42:03] Postęp wp_itsec_dashboard_events: 1/2 (50.00%)
+[INFO] [2024-04-09 17:42:03] Postęp wp_itsec_dashboard_events: 2/2 (100.00%)
+[SUCCESS] [2024-04-09 17:42:03] Przywracanie tabeli wp_itsec_dashboard_events zajęło 0.53400 sekund
+[STEP] [2024-04-09 17:42:03] Rozpoczęto przywracanie wp_itsec_dashboard_lockouts 5/26 (19.23%) tabeli
+[INFO] [2024-04-09 17:42:03] Postęp wp_itsec_dashboard_lockouts: 1/2 (50.00%)
+[INFO] [2024-04-09 17:42:04] Postęp wp_itsec_dashboard_lockouts: 2/2 (100.00%)
+[SUCCESS] [2024-04-09 17:42:04] Przywracanie tabeli wp_itsec_dashboard_lockouts zajęło 1.19284 sekund
+[STEP] [2024-04-09 17:42:04] Rozpoczęto przywracanie wp_itsec_distributed_storage 6/26 (23.08%) tabeli
+[INFO] [2024-04-09 17:42:04] Postęp wp_itsec_distributed_storage: 1/2 (50.00%)
+[INFO] [2024-04-09 17:42:04] Postęp wp_itsec_distributed_storage: 2/2 (100.00%)
+[SUCCESS] [2024-04-09 17:42:04] Przywracanie tabeli wp_itsec_distributed_storage zajęło 0.86169 sekund
+[STEP] [2024-04-09 17:42:05] Rozpoczęto przywracanie wp_itsec_fingerprints 7/26 (26.92%) tabeli
+[INFO] [2024-04-09 17:42:05] Postęp wp_itsec_fingerprints: 1/2 (50.00%)
+[INFO] [2024-04-09 17:42:05] Postęp wp_itsec_fingerprints: 2/2 (100.00%)
+[SUCCESS] [2024-04-09 17:42:05] Przywracanie tabeli wp_itsec_fingerprints zajęło 0.54695 sekund
+[STEP] [2024-04-09 17:42:05] Rozpoczęto przywracanie wp_itsec_firewall_rules 8/26 (30.77%) tabeli
+[INFO] [2024-04-09 17:42:05] Postęp wp_itsec_firewall_rules: 1/2 (50.00%)
+[INFO] [2024-04-09 17:42:06] Postęp wp_itsec_firewall_rules: 2/2 (100.00%)
+[SUCCESS] [2024-04-09 17:42:06] Przywracanie tabeli wp_itsec_firewall_rules zajęło 1.21963 sekund
+[STEP] [2024-04-09 17:42:06] Rozpoczęto przywracanie wp_itsec_geolocation_cache 9/26 (34.62%) tabeli
+[INFO] [2024-04-09 17:42:06] Postęp wp_itsec_geolocation_cache: 1/2 (50.00%)
+[INFO] [2024-04-09 17:42:06] Postęp wp_itsec_geolocation_cache: 2/2 (100.00%)
+[SUCCESS] [2024-04-09 17:42:06] Przywracanie tabeli wp_itsec_geolocation_cache zajęło 0.85894 sekund
+[STEP] [2024-04-09 17:42:07] Rozpoczęto przywracanie wp_itsec_lockouts 10/26 (38.46%) tabeli
+[INFO] [2024-04-09 17:42:07] Postęp wp_itsec_lockouts: 1/2 (50.00%)
+[INFO] [2024-04-09 17:42:07] Postęp wp_itsec_lockouts: 2/2 (100.00%)
+[SUCCESS] [2024-04-09 17:42:07] Przywracanie tabeli wp_itsec_lockouts zajęło 0.50777 sekund
+[STEP] [2024-04-09 17:42:07] Rozpoczęto przywracanie wp_itsec_logs 11/26 (42.31%) tabeli
+[INFO] [2024-04-09 17:42:07] Postęp wp_itsec_logs: 1/2 (50.00%)
+[INFO] [2024-04-09 17:42:08] Postęp wp_itsec_logs: 2/2 (100.00%)
+[SUCCESS] [2024-04-09 17:42:08] Przywracanie tabeli wp_itsec_logs zajęło 1.16098 sekund
+[STEP] [2024-04-09 17:42:08] Rozpoczęto przywracanie wp_itsec_mutexes 12/26 (46.15%) tabeli
+[INFO] [2024-04-09 17:42:08] Postęp wp_itsec_mutexes: 1/2 (50.00%)
+[INFO] [2024-04-09 17:42:08] Postęp wp_itsec_mutexes: 2/2 (100.00%)
+[SUCCESS] [2024-04-09 17:42:08] Przywracanie tabeli wp_itsec_mutexes zajęło 0.81827 sekund
+[STEP] [2024-04-09 17:42:09] Rozpoczęto przywracanie wp_itsec_opaque_tokens 13/26 (50.00%) tabeli
+[INFO] [2024-04-09 17:42:09] Postęp wp_itsec_opaque_tokens: 1/2 (50.00%)
+[INFO] [2024-04-09 17:42:09] Postęp wp_itsec_opaque_tokens: 2/2 (100.00%)
+[SUCCESS] [2024-04-09 17:42:09] Przywracanie tabeli wp_itsec_opaque_tokens zajęło 0.46227 sekund
+[STEP] [2024-04-09 17:42:09] Rozpoczęto przywracanie wp_itsec_temp 14/26 (53.85%) tabeli
+[INFO] [2024-04-09 17:42:09] Postęp wp_itsec_temp: 1/2 (50.00%)
+[INFO] [2024-04-09 17:42:10] Postęp wp_itsec_temp: 2/2 (100.00%)
+[SUCCESS] [2024-04-09 17:42:10] Przywracanie tabeli wp_itsec_temp zajęło 1.12435 sekund
+[STEP] [2024-04-09 17:42:10] Rozpoczęto przywracanie wp_itsec_user_groups 15/26 (57.69%) tabeli
+[INFO] [2024-04-09 17:42:10] Postęp wp_itsec_user_groups: 1/3 (33.33%)
+[INFO] [2024-04-09 17:42:10] Postęp wp_itsec_user_groups: 2/3 (66.67%)
+[INFO] [2024-04-09 17:42:11] Postęp wp_itsec_user_groups: 3/3 (100.00%)
+[SUCCESS] [2024-04-09 17:42:11] Przywracanie tabeli wp_itsec_user_groups zajęło 1.03850 sekund
+[STEP] [2024-04-09 17:42:11] Rozpoczęto przywracanie wp_itsec_vulnerabilities 16/26 (61.54%) tabeli
+[INFO] [2024-04-09 17:42:11] Postęp wp_itsec_vulnerabilities: 1/2 (50.00%)
+[INFO] [2024-04-09 17:42:11] Postęp wp_itsec_vulnerabilities: 2/2 (100.00%)
+[SUCCESS] [2024-04-09 17:42:11] Przywracanie tabeli wp_itsec_vulnerabilities zajęło 0.70485 sekund
+[STEP] [2024-04-09 17:42:12] Rozpoczęto przywracanie wp_links 17/26 (65.38%) tabeli
+[INFO] [2024-04-09 17:42:12] Postęp wp_links: 1/2 (50.00%)
+[INFO] [2024-04-09 17:42:12] Postęp wp_links: 2/2 (100.00%)
+[SUCCESS] [2024-04-09 17:42:12] Przywracanie tabeli wp_links zajęło 0.35379 sekund
+[STEP] [2024-04-09 17:42:12] Rozpoczęto przywracanie wp_options 18/26 (69.23%) tabeli
+[INFO] [2024-04-09 17:42:12] Postęp wp_options: 1/3 (33.33%)
+[INFO] [2024-04-09 17:42:13] Postęp wp_options: 2/3 (66.67%)
+[INFO] [2024-04-09 17:42:13] Postęp wp_options: 3/3 (100.00%)
+[SUCCESS] [2024-04-09 17:42:13] Przywracanie tabeli wp_options zajęło 1.28096 sekund
+[STEP] [2024-04-09 17:42:13] Rozpoczęto przywracanie wp_postmeta 19/26 (73.08%) tabeli
+[INFO] [2024-04-09 17:42:13] Postęp wp_postmeta: 1/3 (33.33%)
+[INFO] [2024-04-09 17:42:13] Postęp wp_postmeta: 2/3 (66.67%)
+[INFO] [2024-04-09 17:42:14] Postęp wp_postmeta: 3/3 (100.00%)
+[SUCCESS] [2024-04-09 17:42:14] Przywracanie tabeli wp_postmeta zajęło 1.21308 sekund
+[STEP] [2024-04-09 17:42:14] Rozpoczęto przywracanie wp_posts 20/26 (76.92%) tabeli
+[INFO] [2024-04-09 17:42:14] Postęp wp_posts: 1/6 (16.67%)
+[INFO] [2024-04-09 17:42:14] Postęp wp_posts: 2/6 (33.33%)
+[INFO] [2024-04-09 17:42:15] Postęp wp_posts: 3/6 (50.00%)
+[INFO] [2024-04-09 17:42:15] Postęp wp_posts: 4/6 (66.67%)
+[INFO] [2024-04-09 17:42:15] Postęp wp_posts: 5/6 (83.33%)
+[INFO] [2024-04-09 17:42:16] Postęp wp_posts: 6/6 (100.00%)
+[SUCCESS] [2024-04-09 17:42:16] Przywracanie tabeli wp_posts zajęło 2.20427 sekund
+[STEP] [2024-04-09 17:42:16] Rozpoczęto przywracanie wp_term_relationships 21/26 (80.77%) tabeli
+[INFO] [2024-04-09 17:42:16] Postęp wp_term_relationships: 1/3 (33.33%)
+[INFO] [2024-04-09 17:42:16] Postęp wp_term_relationships: 2/3 (66.67%)
+[INFO] [2024-04-09 17:42:17] Postęp wp_term_relationships: 3/3 (100.00%)
+[SUCCESS] [2024-04-09 17:42:17] Przywracanie tabeli wp_term_relationships zajęło 1.14537 sekund
+[STEP] [2024-04-09 17:42:17] Rozpoczęto przywracanie wp_term_taxonomy 22/26 (84.62%) tabeli
+[INFO] [2024-04-09 17:42:17] Postęp wp_term_taxonomy: 1/3 (33.33%)
+[INFO] [2024-04-09 17:42:17] Postęp wp_term_taxonomy: 2/3 (66.67%)
+[INFO] [2024-04-09 17:42:18] Postęp wp_term_taxonomy: 3/3 (100.00%)
+[SUCCESS] [2024-04-09 17:42:18] Przywracanie tabeli wp_term_taxonomy zajęło 1.08114 sekund
+[STEP] [2024-04-09 17:42:18] Rozpoczęto przywracanie wp_termmeta 23/26 (88.46%) tabeli
+[INFO] [2024-04-09 17:42:18] Postęp wp_termmeta: 1/2 (50.00%)
+[INFO] [2024-04-09 17:42:18] Postęp wp_termmeta: 2/2 (100.00%)
+[SUCCESS] [2024-04-09 17:42:18] Przywracanie tabeli wp_termmeta zajęło 0.72190 sekund
+[STEP] [2024-04-09 17:42:19] Rozpoczęto przywracanie wp_terms 24/26 (92.31%) tabeli
+[INFO] [2024-04-09 17:42:19] Postęp wp_terms: 1/3 (33.33%)
+[INFO] [2024-04-09 17:42:19] Postęp wp_terms: 2/3 (66.67%)
+[INFO] [2024-04-09 17:42:19] Postęp wp_terms: 3/3 (100.00%)
+[SUCCESS] [2024-04-09 17:42:19] Przywracanie tabeli wp_terms zajęło 0.64256 sekund
+[STEP] [2024-04-09 17:42:20] Rozpoczęto przywracanie wp_usermeta 25/26 (96.15%) tabeli
+[INFO] [2024-04-09 17:42:20] Postęp wp_usermeta: 1/3 (33.33%)
+[INFO] [2024-04-09 17:42:20] Postęp wp_usermeta: 2/3 (66.67%)
+[INFO] [2024-04-09 17:42:20] Postęp wp_usermeta: 3/3 (100.00%)
+[SUCCESS] [2024-04-09 17:42:20] Przywracanie tabeli wp_usermeta zajęło 1.56403 sekund
+[STEP] [2024-04-09 17:42:20] Rozpoczęto przywracanie wp_users 26/26 (100.00%) tabeli
+[INFO] [2024-04-09 17:42:20] Postęp wp_users: 1/3 (33.33%)
+[INFO] [2024-04-09 17:42:21] Postęp wp_users: 2/3 (66.67%)
+[INFO] [2024-04-09 17:42:21] Postęp wp_users: 3/3 (100.00%)
+[SUCCESS] [2024-04-09 17:42:21] Przywracanie tabeli wp_users zajęło 1.51290 sekund
+[VERBOSE] [2024-04-09 17:42:22] Previous detected domain: stronka.loc
+[VERBOSE] [2024-04-09 17:42:22] Previous detected domain parsed: stronka.loc
+[VERBOSE] [2024-04-09 17:42:22] New detected domain: pipipipipipi.loc
+[VERBOSE] [2024-04-09 17:42:22] SSL: http://
+[VERBOSE] [2024-04-09 17:42:22] Previous ABSPATH: C:\laragon\www\stronka/
+[VERBOSE] [2024-04-09 17:42:22] New detected ABSPATH: D:\laragon\www\pipipipipipi/
+[STEP] [2024-04-09 17:42:22] Przeprowadzanie wyszukiwania i zamieniania
+[INFO] [2024-04-09 17:42:22] Rozmiar strony dla tego przywracania: 50
+[STEP] [2024-04-09 17:42:22] Wykonywanie dostosowań bazy danych dla tabeli 1/26: 1712603169_wp_commentmeta (3.85%)
+[INFO] [2024-04-09 17:42:24] Dostosowania nie są wymagane dla tej tabeli.
+[STEP] [2024-04-09 17:42:24] Wykonywanie dostosowań bazy danych dla tabeli 2/26: 1712603169_wp_comments (7.69%)
+[INFO] [2024-04-09 17:42:26] Dostosowania nie są wymagane dla tej tabeli.
+[STEP] [2024-04-09 17:42:26] Wykonywanie dostosowań bazy danych dla tabeli 3/26: 1712603169_wp_itsec_bans (11.54%)
+[INFO] [2024-04-09 17:42:28] Dostosowania nie są wymagane dla tej tabeli.
+[STEP] [2024-04-09 17:42:28] Wykonywanie dostosowań bazy danych dla tabeli 4/26: 1712603169_wp_itsec_dashboard_events (15.38%)
+[INFO] [2024-04-09 17:42:30] Dostosowania nie są wymagane dla tej tabeli.
+[STEP] [2024-04-09 17:42:30] Wykonywanie dostosowań bazy danych dla tabeli 5/26: 1712603169_wp_itsec_dashboard_lockouts (19.23%)
+[INFO] [2024-04-09 17:42:32] Dostosowania nie są wymagane dla tej tabeli.
+[STEP] [2024-04-09 17:42:33] Wykonywanie dostosowań bazy danych dla tabeli 6/26: 1712603169_wp_itsec_distributed_storage (23.08%)
+[INFO] [2024-04-09 17:42:35] Dostosowania nie są wymagane dla tej tabeli.
+[STEP] [2024-04-09 17:42:35] Wykonywanie dostosowań bazy danych dla tabeli 7/26: 1712603169_wp_itsec_fingerprints (26.92%)
+[INFO] [2024-04-09 17:42:37] Dostosowania nie są wymagane dla tej tabeli.
+[STEP] [2024-04-09 17:42:37] Wykonywanie dostosowań bazy danych dla tabeli 8/26: 1712603169_wp_itsec_firewall_rules (30.77%)
+[INFO] [2024-04-09 17:42:39] Dostosowania nie są wymagane dla tej tabeli.
+[STEP] [2024-04-09 17:42:39] Wykonywanie dostosowań bazy danych dla tabeli 9/26: 1712603169_wp_itsec_geolocation_cache (34.62%)
+[INFO] [2024-04-09 17:42:41] Dostosowania nie są wymagane dla tej tabeli.
+[STEP] [2024-04-09 17:42:41] Wykonywanie dostosowań bazy danych dla tabeli 10/26: 1712603169_wp_itsec_lockouts (38.46%)
+[INFO] [2024-04-09 17:42:43] Dostosowania nie są wymagane dla tej tabeli.
+[INFO] [2024-04-09 17:42:44] Dostosowania nie są wymagane dla tej tabeli.(1712603169_wp_itsec_logs)
+[STEP] [2024-04-09 17:42:44] Wykonywanie dostosowań bazy danych dla tabeli 12/26: 1712603169_wp_itsec_mutexes (46.15%)
+[INFO] [2024-04-09 17:42:46] Dostosowania nie są wymagane dla tej tabeli.
+[STEP] [2024-04-09 17:42:46] Wykonywanie dostosowań bazy danych dla tabeli 13/26: 1712603169_wp_itsec_opaque_tokens (50.00%)
+[INFO] [2024-04-09 17:42:48] Dostosowania nie są wymagane dla tej tabeli.
+[STEP] [2024-04-09 17:42:48] Wykonywanie dostosowań bazy danych dla tabeli 14/26: 1712603169_wp_itsec_temp (53.85%)
+[INFO] [2024-04-09 17:42:50] Dostosowania nie są wymagane dla tej tabeli.
+[STEP] [2024-04-09 17:42:50] Wykonywanie dostosowań bazy danych dla tabeli 15/26: 1712603169_wp_itsec_user_groups (57.69%)
+[INFO] [2024-04-09 17:42:52] Dostosowania nie są wymagane dla tej tabeli.
+[STEP] [2024-04-09 17:42:53] Wykonywanie dostosowań bazy danych dla tabeli 16/26: 1712603169_wp_itsec_vulnerabilities (61.54%)
+[INFO] [2024-04-09 17:42:54] Dostosowania nie są wymagane dla tej tabeli.
+[STEP] [2024-04-09 17:42:55] Wykonywanie dostosowań bazy danych dla tabeli 17/26: 1712603169_wp_links (65.38%)
+[INFO] [2024-04-09 17:42:57] Dostosowania nie są wymagane dla tej tabeli.
+[STEP] [2024-04-09 17:42:57] Wykonywanie dostosowań bazy danych dla tabeli 18/26: 1712603169_wp_options (69.23%)
+[INFO] [2024-04-09 17:42:58] Pakiet dostosowań domeny (wariant D) zaktualizowany (1/1): 2 pól.
+[STEP] [2024-04-09 17:42:59] Wykonywanie dostosowań bazy danych dla tabeli 19/26: 1712603169_wp_postmeta (73.08%)
+[INFO] [2024-04-09 17:43:01] Dostosowania nie są wymagane dla tej tabeli.
+[STEP] [2024-04-09 17:43:01] Wykonywanie dostosowań bazy danych dla tabeli 20/26: 1712603169_wp_posts (76.92%)
+[INFO] [2024-04-09 17:43:02] Pakiet dostosowań domeny (wariant D) zaktualizowany (1/7): 50 pól.
+[INFO] [2024-04-09 17:43:03] Pakiet dostosowań domeny (wariant D) zaktualizowany (2/7): 50 pól.
+[INFO] [2024-04-09 17:43:03] Pakiet dostosowań domeny (wariant D) zaktualizowany (3/7): 50 pól.
+[INFO] [2024-04-09 17:43:04] Pakiet dostosowań domeny (wariant D) zaktualizowany (4/7): 50 pól.
+[INFO] [2024-04-09 17:43:04] Pakiet dostosowań domeny (wariant D) zaktualizowany (5/7): 50 pól.
+[INFO] [2024-04-09 17:43:05] Pakiet dostosowań domeny (wariant D) zaktualizowany (6/7): 50 pól.
+[INFO] [2024-04-09 17:43:05] Pakiet dostosowań domeny (wariant D) zaktualizowany (7/7): 21 pól.
+[STEP] [2024-04-09 17:43:06] Wykonywanie dostosowań bazy danych dla tabeli 21/26: 1712603169_wp_term_relationships (80.77%)
+[INFO] [2024-04-09 17:43:08] Dostosowania nie są wymagane dla tej tabeli.
+[STEP] [2024-04-09 17:43:08] Wykonywanie dostosowań bazy danych dla tabeli 22/26: 1712603169_wp_term_taxonomy (84.62%)
+[INFO] [2024-04-09 17:43:10] Dostosowania nie są wymagane dla tej tabeli.
+[STEP] [2024-04-09 17:43:11] Wykonywanie dostosowań bazy danych dla tabeli 23/26: 1712603169_wp_termmeta (88.46%)
+[INFO] [2024-04-09 17:43:13] Dostosowania nie są wymagane dla tej tabeli.
+[STEP] [2024-04-09 17:43:13] Wykonywanie dostosowań bazy danych dla tabeli 24/26: 1712603169_wp_terms (92.31%)
+[INFO] [2024-04-09 17:43:15] Dostosowania nie są wymagane dla tej tabeli.
+[STEP] [2024-04-09 17:43:15] Wykonywanie dostosowań bazy danych dla tabeli 25/26: 1712603169_wp_usermeta (96.15%)
+[INFO] [2024-04-09 17:43:17] Dostosowania nie są wymagane dla tej tabeli.
+[STEP] [2024-04-09 17:43:17] Wykonywanie dostosowań bazy danych dla tabeli 26/26: 1712603169_wp_users (100.00%)
+[INFO] [2024-04-09 17:43:18] Pakiet dostosowań domeny (wariant D) zaktualizowany (1/1): 1 pól.
+[SUCCESS] [2024-04-09 17:43:19] Wyszukiwanie i zamienianie zakończone sukcesem.
+[SUCCESS] [2024-04-09 17:43:19] Baza danych została przywrócona
+[STEP] [2024-04-09 17:43:20] Przeprowadzanie zamiany tabel
+[INFO] [2024-04-09 17:43:20] Tabela 1712603169_wp_commentmeta została przemianowana na wp_commentmeta
+[INFO] [2024-04-09 17:43:20] Tabela 1712603169_wp_comments została przemianowana na wp_comments
+[INFO] [2024-04-09 17:43:20] Tabela 1712603169_wp_itsec_bans została przemianowana na wp_itsec_bans
+[INFO] [2024-04-09 17:43:20] Tabela 1712603169_wp_itsec_dashboard_events została przemianowana na wp_itsec_dashboard_events
+[INFO] [2024-04-09 17:43:20] Tabela 1712603169_wp_itsec_dashboard_lockouts została przemianowana na wp_itsec_dashboard_lockouts
+[INFO] [2024-04-09 17:43:20] Tabela 1712603169_wp_itsec_distributed_storage została przemianowana na wp_itsec_distributed_storage
+[INFO] [2024-04-09 17:43:20] Tabela 1712603169_wp_itsec_fingerprints została przemianowana na wp_itsec_fingerprints
+[INFO] [2024-04-09 17:43:20] Tabela 1712603169_wp_itsec_firewall_rules została przemianowana na wp_itsec_firewall_rules
+[INFO] [2024-04-09 17:43:20] Tabela 1712603169_wp_itsec_geolocation_cache została przemianowana na wp_itsec_geolocation_cache
+[INFO] [2024-04-09 17:43:20] Tabela 1712603169_wp_itsec_lockouts została przemianowana na wp_itsec_lockouts
+[INFO] [2024-04-09 17:43:20] Tabela 1712603169_wp_itsec_logs została przemianowana na wp_itsec_logs
+[INFO] [2024-04-09 17:43:20] Tabela 1712603169_wp_itsec_mutexes została przemianowana na wp_itsec_mutexes
+[INFO] [2024-04-09 17:43:20] Tabela 1712603169_wp_itsec_opaque_tokens została przemianowana na wp_itsec_opaque_tokens
+[INFO] [2024-04-09 17:43:20] Tabela 1712603169_wp_itsec_temp została przemianowana na wp_itsec_temp
+[INFO] [2024-04-09 17:43:20] Tabela 1712603169_wp_itsec_user_groups została przemianowana na wp_itsec_user_groups
+[INFO] [2024-04-09 17:43:20] Tabela 1712603169_wp_itsec_vulnerabilities została przemianowana na wp_itsec_vulnerabilities
+[INFO] [2024-04-09 17:43:20] Tabela 1712603169_wp_links została przemianowana na wp_links
+[INFO] [2024-04-09 17:43:20] Tabela 1712603169_wp_options została przemianowana na wp_options
+[INFO] [2024-04-09 17:43:20] Tabela 1712603169_wp_postmeta została przemianowana na wp_postmeta
+[INFO] [2024-04-09 17:43:20] Tabela 1712603169_wp_posts została przemianowana na wp_posts
+[INFO] [2024-04-09 17:43:20] Tabela 1712603169_wp_term_relationships została przemianowana na wp_term_relationships
+[INFO] [2024-04-09 17:43:20] Tabela 1712603169_wp_term_taxonomy została przemianowana na wp_term_taxonomy
+[INFO] [2024-04-09 17:43:20] Tabela 1712603169_wp_termmeta została przemianowana na wp_termmeta
+[INFO] [2024-04-09 17:43:20] Tabela 1712603169_wp_terms została przemianowana na wp_terms
+[INFO] [2024-04-09 17:43:20] Tabela 1712603169_wp_usermeta została przemianowana na wp_usermeta
+[INFO] [2024-04-09 17:43:20] Tabela 1712603169_wp_users została przemianowana na wp_users
+[SUCCESS] [2024-04-09 17:43:20] Wszystkie tabele zostały zastąpione
+[VERBOSE] [2024-04-09 17:43:20] Detected table prefix: wp_
+[VERBOSE] [2024-04-09 17:43:20] Forwarded table prefix: wp_
+[VERBOSE] [2024-04-09 17:43:20] Manifest table prefix: wp_
+[STEP] [2024-04-09 17:43:20] Przywracanie pliku wp-config…
+[SUCCESS] [2024-04-09 17:43:20] Plik wp-config został przywrócony
+[STEP] [2024-04-09 17:43:20] Włączanie wtyczek zawartych w kopii zapasowej
+[VERBOSE] [2024-04-09 17:43:20] Detected version WP/PHP for plugin: optimole-wp/optimole-wp.php, is (5.5/5.4)
+[INFO] [2024-04-09 17:43:20] Wtyczka optimole-wp/optimole-wp.php została pomyślnie włączona.
+[VERBOSE] [2024-04-09 17:43:20] Detected version WP/PHP for plugin: otter-blocks/otter-blocks.php, is (6.2/5.6)
+[INFO] [2024-04-09 17:43:20] Wtyczka otter-blocks/otter-blocks.php została pomyślnie włączona.
+[VERBOSE] [2024-04-09 17:43:20] Detected version WP/PHP for plugin: backup-backup/backup-backup.php, is (4.6/5.6)
+[INFO] [2024-04-09 17:43:20] Wtyczka backup-backup/backup-backup.php została pomyślnie włączona.
+[VERBOSE] [2024-04-09 17:43:20] Detected version WP/PHP for plugin: templates-patterns-collection/templates-patterns-collection.php, is (5.5/5.6)
+[INFO] [2024-04-09 17:43:20] Wtyczka templates-patterns-collection/templates-patterns-collection.php została pomyślnie włączona.
+[SUCCESS] [2024-04-09 17:43:20] Wszystkie wtyczki zostały włączone, możesz zaczynać :)
+[SUCCESS] [2024-04-09 17:43:20] Baza danych została przywrócona
+[STEP] [2024-04-09 17:43:20] Uruchamianie nowej sesji logowania
+[SUCCESS] [2024-04-09 17:43:20] Użytkownik powinien być zalogowany
+[STEP] [2024-04-09 17:43:20] Usuwanie plików tymczasowych…
+[INFO] [2024-04-09 17:43:21] Usuwanie 1077 pliki/plików
+[SUCCESS] [2024-04-09 17:43:22] Wyczyszczono pliki tymczasowe
+[INFO] [2024-04-09 17:43:22] Proces odzyskiwania zajął: 110 seconds.
+[SUCCESS] [2024-04-09 17:43:22] Proces przywracania zakończony
+[STEP] [2024-04-09 17:43:22] Trwa kończenie przywracania plików
+[INFO] [2024-04-09 17:43:22] Odblokowywanie migracji
+[END-CODE] [2024-04-09 17:43:22] #001
